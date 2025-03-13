@@ -3,17 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Song Searcher</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <h1>Welcome to SongSearcher - powered by Odesli</h1>  
-    <div class="topnav">
-        <input id="searchThisSong" type="text" placeholder="Enter the link here...">
-        <button type="button" class="Search" id="searchButton">Get all available platforms</button>
+    <h1>Welcome to SongSearcher <span id="odesliHighlighter">(powered by Odesli)</span></h1>  
+    <div>
+        <input id="searchThisSong" type="text" placeholder="Enter song link here...">
+        <button type="button" class="Search" id="searchButton">Streaming Options</button>
         <h3  style="color: brown;" id="title"></h3>
     </div>
     <div id="results"></div>
